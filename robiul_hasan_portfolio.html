@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Robiul Hasan | Software Developer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f5f7fa;
+    }
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      background: #0b2d3d; color: white;
+      padding: 15px 8%;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    nav a { color: white; text-decoration: none; margin-left: 20px; }
+    .hero {
+      background: #0b2d3d; color: white;
+      padding: 80px 8%;
+      text-align: center;
+    }
+    .hero h1 { font-size: 44px; margin-bottom: 10px; }
+    .hero p { font-size: 18px; opacity: .9; }
+    .btn {
+      display: inline-block; margin-top: 25px;
+      padding: 12px 22px; border-radius: 6px;
+      background: white; color: #0b2d3d;
+      text-decoration: none; font-weight: bold;
+    }
+    section { max-width: 1050px; margin: auto; padding: 60px 8%; }
+    h2 { font-size: 30px; margin-bottom: 25px; color: #0b2d3d; }
+    .about { background: white; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white; padding: 22px; border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,.07);
+    }
+    .card h3 { margin-bottom: 8px; color: #0b2d3d; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag {
+      background: #e8eef2; padding: 7px 11px;
+      border-radius: 20px; font-size: 14px;
+    }
+    .timeline { border-left: 3px solid #0b2d3d; padding-left: 25px; }
+    .job { margin-bottom: 30px; }
+    .job h3 { color: #0b2d3d; }
+    .job .date { font-size: 14px; color: #666; margin: 3px 0 8px; }
+    footer {
+      text-align: center; background: #0b2d3d;
+      color: white; padding: 30px 8%;
+    }
+    footer a { color: white; }
+    @media (max-width: 650px) {
+      nav { flex-direction: column; gap: 8px; }
+      nav a { margin: 0 7px; }
+      .hero h1 { font-size: 34px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <strong>Md. Robiul Hasan</strong>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Md. Robiul Hasan</h1>
+  <p>Full-Stack Web Developer | Software Developer | Backend & Frontend Developer</p>
+  <a class="btn" href="#contact">Get In Touch</a>
+</header>
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Backend Software Engineer with several years of experience building
+    scalable web applications and backend systems. I specialize in RESTful APIs,
+    database design, system integration, and maintainable PHP applications.
+    I also work comfortably with frontend technologies and UI/UX concepts to
+    create reliable, user-focused solutions.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card"><h3>Backend</h3><p>C++, PHP 7/8, OOP, MVC, Laravel, Symfony, CodeIgniter, CakePHP, Java (basic)</p></div>
+    <div class="card"><h3>Frontend</h3><p>HTML5, CSS3, JavaScript ES6+, jQuery, Alpine.js, Vue.js, Bootstrap, Tailwind CSS</p></div>
+    <div class="card"><h3>Databases & APIs</h3><p>MySQL, PostgreSQL, MongoDB, Redis, RESTful APIs, SOAP, JWT, OAuth</p></div>
+    <div class="card"><h3>CMS & E-Commerce</h3><p>WordPress, Shopware, OctoberCMS, online shops and administration systems</p></div>
+    <div class="card"><h3>Testing & Tools</h3><p>PHPUnit, Postman, Cypress, Git, Composer, npm, PhpStorm, VS Code</p></div>
+    <div class="card"><h3>DevOps & ITSM</h3><p>Docker, Apache, Nginx, ServiceNow, Jira, Bitrix24, cPanel, web hosting</p></div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="job">
+      <h3>Web Developer — Freelance / Project Based</h3>
+      <div class="date">Feb 2025 – Present</div>
+      <p>Developing and maintaining PHP web applications, online shops, CMS platforms, inventory systems, administration portals and reporting features.</p>
+    </div>
+    <div class="job">
+      <h3>Programmer — Network / Sensor Devices</h3>
+      <div class="date">Jun 2024 – Aug 2024 · ITUMAG GmbH, Hilden, Germany</div>
+      <p>Maintained a web platform for network and sensor data, developed REST API integrations, system interfaces, reporting functions and troubleshooting solutions.</p>
+    </div>
+    <div class="job">
+      <h3>Programmer / Web Developer</h3>
+      <div class="date">Sep 2019 – Oct 2023 · ePassage24, Düsseldorf, Germany</div>
+      <p>Built ticketing, e-commerce and CMS applications, including user management, payment processing, dashboards, reporting tools and external API integrations.</p>
+    </div>
+    <div class="job">
+      <h3>Web Developer</h3>
+      <div class="date">Nov 2015 – Mar 2019 · B2M Technologies Ltd., Dhaka, Bangladesh</div>
+      <p>Developed telecom and VAS applications, SMS gateways, payment gateway platforms, ERP, accounting and e-commerce systems.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Project Areas</h2>
+  <div class="grid">
+    <div class="card"><h3>Billing & ERP</h3><p>Billing, accounting, inventory management and HR applications.</p></div>
+    <div class="card"><h3>Payment Gateways</h3><p>Payment-service integrations for online portals and digital services.</p></div>
+    <div class="card"><h3>Telecom & VAS</h3><p>Telecommunication APIs, SMS gateways and digital content services.</p></div>
+    <div class="card"><h3>E-Commerce & CMS</h3><p>Online shops, CMS platforms, administration and reporting portals.</p></div>
+    <div class="card"><h3>Ticketing Systems</h3><p>Ticket sales portals with user management, payments and chat features.</p></div>
+    <div class="card"><h3>Network & Sensor Systems</h3><p>Web platforms and APIs for network and sensor data management.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="about">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> <a href="mailto:robiulhasan.php@gmail.com">robiulhasan.php@gmail.com</a></p>
+  <p><strong>Location:</strong> Duisburg, Germany</p>
+  <p><strong>Phone:</strong> +49 176 23751231</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/robiulhasanphp" target="_blank">github.com/robiulhasanphp</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/md-robiul-hasan-972b6b379/" target="_blank">LinkedIn Profile</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Md. Robiul Hasan · Full-Stack Web Developer</p>
+</footer>
+
+</body>
+</html>
