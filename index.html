@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Md. Robiul Hasan - Software Engineer, PHP Laravel Developer, Backend and Full-Stack Developer">
+<title>Md. Robiul Hasan | Software Engineer</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#202b33;background:#f5f7f8;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#0b2d3d;color:#fff;box-shadow:0 2px 12px #0002}
+nav{min-height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:700}
+nav ul{display:flex;list-style:none;gap:24px}
+nav a{font-size:14px}
+nav a:hover{color:#a7d9e2}
+
+.hero{background:#fff;padding:85px 0 75px}
+.hero-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:50px;align-items:center}
+.eyebrow{color:#0b667a;font-size:13px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase}
+h1{font-size:clamp(42px,6vw,64px);line-height:1.05;color:#0b2d3d;margin:12px 0 18px}
+.hero h2{font-size:23px;color:#374151;margin-bottom:18px}
+.lead{color:#4b5563;max-width:720px}
+.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{border:1px solid #0b2d3d;border-radius:7px;padding:11px 18px;font-size:14px;font-weight:700}
+.btn.primary{background:#0b2d3d;color:#fff}
+.btn:hover{transform:translateY(-1px)}
+.focus-card{background:#eef4f7;border:1px solid #d5e2e7;border-radius:12px;padding:25px}
+.focus-card h3{color:#0b2d3d;margin-bottom:10px}
+.focus-card ul{padding-left:20px}
+.focus-card li{margin:7px 0}
+
+section{padding:70px 0}
+section.light{background:#fff}
+.section-title{color:#0b2d3d;font-size:30px;margin-bottom:8px}
+.section-intro{color:#6b7280;margin-bottom:28px}
+
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:30px}
+.about-grid p{margin-bottom:16px}
+.card{background:#fff;border:1px solid #dbe4e9;border-radius:12px;padding:24px}
+.card h3{color:#0b2d3d;margin-bottom:7px;font-size:17px}
+.card p{color:#59636e;font-size:14px;margin-bottom:16px}
+.card p:last-child{margin-bottom:0}
+
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.skill-card{background:#fff;border:1px solid #dbe4e9;border-radius:10px;padding:20px}
+.skill-card h3{color:#0b2d3d;font-size:18px;margin-bottom:8px}
+.skill-card p{color:#59636e;font-size:14px}
+
+.experience{background:#fff;border-left:4px solid #0b667a;border-radius:0 9px 9px 0;padding:21px 24px;margin-bottom:17px;box-shadow:0 2px 8px #0000000a}
+.experience h3{color:#0b2d3d;font-size:17px}
+.meta{color:#6b7280;font-size:14px;margin:3px 0 11px}
+.experience ul{padding-left:19px;font-size:14px}
+.experience li{margin:5px 0}
+
+.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
+.project{background:#fff;border:1px solid #dce5ea;border-radius:9px;padding:18px 19px}
+.project h3{color:#0b2d3d;font-size:16px;margin-bottom:5px}
+.project p{color:#59636e;font-size:14px}
+
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.contact-box{background:#0b2d3d;color:#fff;border-radius:14px;padding:28px}
+.contact-box h3{margin-bottom:15px}
+.contact-box p{margin:10px 0}
+.contact-box a{text-decoration:underline}
+.contact-box a:hover{color:#a7d9e2}
+
+footer{background:#071f2b;color:#cbd5dc;text-align:center;padding:25px;font-size:13px}
+
+@media(max-width:800px){
+nav ul{display:none}
+.hero{padding:60px 0}
+.hero-grid,.about-grid,.skills-grid,.project-grid,.contact-grid{grid-template-columns:1fr}
+section{padding:52px 0}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Md. Robiul Hasan</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">Software Engineer · Backend & Full-Stack Development</div>
+<h1>Md. Robiul Hasan</h1>
+<h2>PHP / Laravel Developer</h2>
+<p class="lead">
+Software Engineer with 8+ years of professional experience in backend and
+full-stack web development. Specialized in PHP, Laravel, REST APIs, databases,
+e-commerce, CMS, payment integrations, telecommunications/VAS applications
+and business software.
+</p>
+<div class="buttons">
+<a class="btn primary" href="#contact">Contact Me</a>
+<a class="btn" href="https://github.com/robiulhasanphp" target="_blank">GitHub</a>
+<a class="btn" href="https://robiulhasanphp.github.io/" target="_blank">Portfolio</a>
+<a class="btn" href="https://www.linkedin.com/in/md-robiul-hasan-972b6b379/" target="_blank">LinkedIn</a>
+</div>
+</div>
+
+<div class="focus-card">
+<h3>Core Expertise</h3>
+<ul>
+<li>PHP 7 / 8 & Laravel</li>
+<li>Backend & Full-Stack Web Development</li>
+<li>RESTful APIs & Integrations</li>
+<li>MySQL / PostgreSQL / MongoDB / Redis</li>
+<li>E-Commerce & CMS</li>
+<li>Payment Gateway Integration</li>
+<li>Telecommunications / VAS</li>
+<li>Python — Basic Knowledge</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<h2 class="section-title">About Me</h2>
+<p class="section-intro">Software engineering profile based on my Web Development CV.</p>
+
+<div class="about-grid">
+<div>
+<p>
+I am a Software Engineer with more than 8 years of experience in web
+application development, backend engineering and full-stack development.
+My main expertise is PHP and modern PHP frameworks, especially Laravel.
+</p>
+<p>
+I have developed and maintained business applications including ticketing
+platforms, e-commerce systems, CMS solutions, payment platforms,
+telecommunications/VAS applications, dashboards, reporting tools and
+administrative systems.
+</p>
+<p>
+My experience includes designing and integrating REST APIs, working with
+relational and NoSQL databases, third-party services, authentication,
+payment providers and scalable web applications.
+</p>
+</div>
+
+<div class="card">
+<h3>Location</h3>
+<p>Duisburg, Germany</p>
+
+<h3>Professional Profile</h3>
+<p>Software Engineer · Backend Developer · Full-Stack Developer</p>
+
+<h3>Languages</h3>
+<p>German – B2 · English – B2/C1 · Bengali – Native · Hindi – Advanced</p>
+
+<h3>Availability</h3>
+<p>Open to Software Development opportunities in Germany.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills" class="light">
+<div class="container">
+<h2 class="section-title">Technical Skills</h2>
+<p class="section-intro">Technologies and tools I work with.</p>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<h3>Backend Development</h3>
+<p>
+PHP 7/8, Laravel, Symfony, CodeIgniter, CakePHP, OOP, MVC,
+RESTful APIs, SOAP, JWT, OAuth
+</p>
+</div>
+
+<div class="skill-card">
+<h3>Frontend Development</h3>
+<p>
+HTML5, CSS3, JavaScript ES6+, jQuery, Alpine.js, Vue.js,
+Bootstrap, Tailwind CSS, Responsive Web Development, SEO
+</p>
+</div>
+
+<div class="skill-card">
+<h3>Databases</h3>
+<p>
+MySQL, PostgreSQL, MongoDB, Redis (NoSQL), SQL, database design,
+queries, optimization and troubleshooting
+</p>
+</div>
+
+<div class="skill-card">
+<h3>API & Integrations</h3>
+<p>
+REST APIs, SOAP Web Services, Payment Gateway APIs,
+Telecommunications/VAS APIs, OpenAI API and third-party integrations
+</p>
+</div>
+
+<div class="skill-card">
+<h3>CMS & E-Commerce</h3>
+<p>
+WordPress, Shopware, OctoberCMS, E-Commerce Platforms,
+Online Shops and Content Management Systems
+</p>
+</div>
+
+<div class="skill-card">
+<h3>Development Tools</h3>
+<p>
+Git, Composer, npm, PhpStorm, Visual Studio Code, Gulp,
+Postman, PHPUnit, Cypress
+</p>
+</div>
+
+<div class="skill-card">
+<h3>DevOps & Web Infrastructure</h3>
+<p>
+Docker, Apache, Nginx, Laravel Valet, cPanel, FileZilla,
+WinSCP, Web Hosting and deployment environments
+</p>
+</div>
+
+<div class="skill-card">
+<h3>Python</h3>
+<p>
+Python — Basic Knowledge (Grundkenntnisse), including basic scripting,
+automation concepts, data handling and API-related work
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+<h2 class="section-title">Professional Experience</h2>
+<p class="section-intro">Professional software development experience.</p>
+
+<div class="experience">
+<h3>Web Developer — Freelance / Project Basis</h3>
+<div class="meta">Feb 2025 – Present · Home Office</div>
+<ul>
+<li>Further development and maintenance of existing PHP web applications.</li>
+<li>Implementation of new features and improvements for web-based systems.</li>
+<li>Development and maintenance of online shops, CMS, inventory management and administration/reporting portals.</li>
+<li>Optimization of existing features with focus on maintainability, performance and usability.</li>
+</ul>
+</div>
+
+<div class="experience">
+<h3>Programmer — ITUMA GmbH</h3>
+<div class="meta">Jun 2024 – Aug 2024 · Hilden, Germany</div>
+<ul>
+<li>Development and maintenance of a platform for network and sensor data management with REST API integration.</li>
+<li>Integration of REST APIs with network management and control platforms.</li>
+<li>Development and extension of system interfaces, reporting and administration functions.</li>
+<li>Analysis and resolution of application errors and integration/communication problems.</li>
+</ul>
+</div>
+
+<div class="experience">
+<h3>Programmer / Web Developer — ePassage24</h3>
+<div class="meta">Sep 2019 – Oct 2023 · Düsseldorf, Germany</div>
+<ul>
+<li>Development, maintenance and further development of web applications for ticketing, e-commerce and content management.</li>
+<li>Development of ticket sales portals with user management, payment processing and chat functionality.</li>
+<li>Development of internal dashboards, reporting tools and support systems.</li>
+<li>Integration of external APIs, especially payment services and Google AdSense.</li>
+<li>Development of responsive web applications for desktop, tablet and mobile devices.</li>
+</ul>
+</div>
+
+<div class="experience">
+<h3>Web Developer — B2M Technologies Ltd.</h3>
+<div class="meta">Nov 2015 – Mar 2019 · Dhaka, Bangladesh</div>
+<ul>
+<li>Development and maintenance of telecommunications and Value-Added Services (VAS) applications for digital content services.</li>
+<li>Development of web applications including SMS gateways and API integration for mobile and service providers.</li>
+<li>Development of payment gateway platforms for online portals.</li>
+<li>Integration of payment and telecommunications services with international development teams.</li>
+<li>Development and maintenance of e-commerce, ERP and accounting systems.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="projects" class="light">
+<div class="container">
+<h2 class="section-title">Selected Projects & Business Systems</h2>
+<p class="section-intro">Selected development areas and business systems.</p>
+
+<div class="project-grid">
+
+<div class="project">
+<h3>Billing & Abrechnungssysteme</h3>
+<p>Business applications for billing, accounting and administrative workflows.</p>
+</div>
+
+<div class="project">
+<h3>Inventory Management</h3>
+<p>Web-based inventory and stock management applications.</p>
+</div>
+
+<div class="project">
+<h3>HR Applications</h3>
+<p>Personnel-management and administrative web applications.</p>
+</div>
+
+<div class="project">
+<h3>Telecommunications / VAS</h3>
+<p>VAS applications and telecommunications API integrations for digital services.</p>
+</div>
+
+<div class="project">
+<h3>Payment Gateway APIs</h3>
+<p>Integration of online payment services and payment processing platforms.</p>
+</div>
+
+<div class="project">
+<h3>CMS Platforms</h3>
+<p>Content management systems and customized web solutions.</p>
+</div>
+
+<div class="project">
+<h3>E-Commerce & Online Shops</h3>
+<p>Online shops, product workflows, customer functions and integrations.</p>
+</div>
+
+<div class="project">
+<h3>Google AdSense Integration</h3>
+<p>Integration and management of advertising functionality in web applications.</p>
+</div>
+
+<div class="project">
+<h3>Restaurant Systems</h3>
+<p>Ordering, reservation and billing systems for restaurants.</p>
+</div>
+
+<div class="project">
+<h3>AI Integration</h3>
+<p>AI chatbot and AI integration into web applications, including OpenAI API work.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="education">
+<div class="container">
+<h2 class="section-title">Education</h2>
+<p class="section-intro">Academic background.</p>
+
+<div class="card">
+<h3>Bachelor of Science (B.Sc.) in Computer Science & Engineering</h3>
+<p><strong>University of Asia Pacific, Bangladesh</strong> · Jan 2010 – May 2014</p>
+<p>ZAB Statement of Comparability: Equivalent to a German Bachelor's degree.</p>
+<p>Final CGPA: 3.12 / 4.00</p>
+<p>Bachelor thesis: Wireless Sensor Networks (WSN)</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h2 class="section-title">Contact</h2>
+<p class="section-intro">Open to Software Engineer, PHP, Laravel, Backend and Full-Stack opportunities.</p>
+
+<div class="contact-grid">
+<div class="contact-box">
+<h3>Let's work together</h3>
+<p><strong>Email:</strong> <a href="mailto:robiulhasan.php@gmail.com">robiulhasan.php@gmail.com</a></p>
+<p><strong>Phone:</strong> <a href="tel:+4917623751231">+49 176 23751231</a></p>
+<p><strong>Location:</strong> Duisburg, Germany</p>
+<p><strong>Portfolio:</strong> <a href="https://robiulhasanphp.github.io/" target="_blank">robiulhasanphp.github.io</a></p>
+</div>
+
+<div class="card">
+<h3>Professional Links</h3>
+<p><a href="https://github.com/robiulhasanphp" target="_blank">GitHub →</a></p>
+<p><a href="https://www.linkedin.com/in/md-robiul-hasan-972b6b379/" target="_blank">LinkedIn →</a></p>
+
+<h3>Target Roles</h3>
+<p>
+Software Engineer · PHP Developer · Laravel Developer ·
+Backend Developer · Full-Stack Developer · Web Developer
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+© 2026 Md. Robiul Hasan · Software Engineer
+</footer>
+
+</body>
+</html>
